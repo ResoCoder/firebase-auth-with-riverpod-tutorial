@@ -1,0 +1,25 @@
+name: firebase_auth_with_riverpod_tutorial
+description: Firebase Auth with Riverpod Tutorial.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  form_field_validator: ^1.1.0
+  flutter_signin_button: ^2.0.0
+  flash: ^2.0.3
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
